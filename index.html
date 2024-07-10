@@ -47,7 +47,7 @@
             img.setAttribute("src", `https://loremflickr.com/${window.innerWidth}/${window.innerHeight}/army,usa`);
         }
 
-        document.addEventListener("resize", updateImage);
+        window.addEventListener("resize", updateImage);
         updateImage();
     </script>
 </body>
